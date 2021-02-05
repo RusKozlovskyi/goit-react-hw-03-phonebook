@@ -1,0 +1,52 @@
+.formEditor {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    width: 400px;
+    border: 2px solid gray;
+    margin-bottom: 16px;
+  }
+  
+  .formEditor_label {
+    display: inline-block;
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #171718;
+    cursor: pointer;
+  }
+
+  .formEditor_input {
+    color: #171718;
+    font: inherit;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #bdbdbd;
+    width: 350px;
+    outline: 0;
+  }
+  
+  .formEditor_button {
+    display: flex;
+    margin: auto;
+    width: 150px;
+    justify-content: center;
+    background-color:rgb(142, 153, 255);
+    outline: 0;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.05);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    transition: background-color 200ms ease-in-out;
+  }
+  
+  .formEditor_button:hover {
+    box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.15);
+    background-color: #5255ff;
+    color: rgb(255, 255, 255);
+    transition: color 200ms ease-in-out;
+  }
+  

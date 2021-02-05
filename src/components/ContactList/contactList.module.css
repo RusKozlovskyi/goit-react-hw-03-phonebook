@@ -1,0 +1,25 @@
+.phoneList {
+    width: 400px;
+    margin-left: 5px;
+  }
+  
+  .phoneList_item {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    margin-top: 5px;
+    box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .phoneList_button {
+    border-radius: 2px;
+    border: 1px solid rgb(168, 168, 168);
+    font-size: 10px;
+    width: 50px;
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+
+  .phoneList_button:hover {
+    background-color:rgb(142, 153, 255);
+  }
